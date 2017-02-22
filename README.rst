@@ -5,7 +5,9 @@ The copy() method will return a list with the path where the USB drive being cop
 
 DO NOT MISUSE IT FOR STEALING DATA.
 
-N.B.: Currently it only works in Linux machine. Tested on Ubuntu 16.04 LTS. The current version can be used with Python 3.
+N.B.: Currently it only works in Linux machine. 
+
+Tested on Ubuntu 16.04 LTS. The current version can be used only with Python 3.
 
 To install::
 

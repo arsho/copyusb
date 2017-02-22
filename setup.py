@@ -3,7 +3,7 @@ def readme():
     with open('README.rst') as f:
         return f.read()
 setup(name='copyusb',
-      version='0.0.1',
+      version='0.0.2',
       description='Copy connected USB media device to current script directory.',
       long_description=readme(),
       classifiers=[
