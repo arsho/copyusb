@@ -3,7 +3,7 @@
 # Description          : Copy connected USB media device to current script directory.
 #                        DO NOT MISUSE IT FOR STEALING DATA.                    
 # Date                 : 21/02/2017
-# Version              : 0.0.2
+# Version              : 0.0.3
 # Tested OS            : Ubuntu (16.04 LTS)
 # USB Drive Size (max) : 16GB
 
