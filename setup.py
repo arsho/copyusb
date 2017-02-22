@@ -3,7 +3,7 @@ def readme():
     with open('README.rst') as f:
         return f.read()
 setup(name='copyusb',
-      version='0.0.3',
+      version='1.0.1',
       description='Copy connected USB media device to current script directory.',
       long_description=readme(),
       classifiers=[
@@ -13,6 +13,7 @@ setup(name='copyusb',
         'Topic :: System :: Filesystems',
       ],
       keywords='usb copy clone copier cloner drive',
+      platforms=['Ubuntu'],
       url='http://github.com/arsho/copyusb',
       author='Ahmedur Rahman Shovon',
       author_email='shovon.sylhet@gmail.com',

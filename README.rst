@@ -11,7 +11,7 @@ Tested on Ubuntu 16.04 LTS. The current version can be used only with Python 3.
 
 To install::
 
-    >>> pip3 install copyusb
+    >>> sudo pip3 install copyusb
 
 To use (with caution), simply do::
 
