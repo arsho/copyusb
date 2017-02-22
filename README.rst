@@ -1,9 +1,15 @@
 Copyusb
 --------
-Copy connected USB media device to current script directory. 
 DO NOT MISUSE IT FOR STEALING DATA.
+N.B.: Currently it only works in Linux machine. Tested on Ubuntu 16.04 LTS. The current version can be used with Python 3.
+
+To install::
+
+    >>> pip3 install copyusb
 
 To use (with caution), simply do::
 
     >>> import copyusb
     >>> copy_result_list = copyusb.copy()
+
+
