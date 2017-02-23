@@ -3,14 +3,14 @@ def readme():
     with open('README.rst') as f:
         return f.read()
 setup(name='copyusb',
-      version='1.0.1',
+      version='1.1.0',
       description='Copy connected USB media device to current script directory.',
       long_description=readme(),
       classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
-        'Topic :: System :: Filesystems',
+        'Topic :: Desktop Environment :: File Managers'
       ],
       keywords='usb copy clone copier cloner drive',
       platforms=['Ubuntu'],
